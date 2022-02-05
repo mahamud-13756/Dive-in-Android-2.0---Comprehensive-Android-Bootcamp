@@ -12,12 +12,17 @@ public class IfElse {
         System.out.println("Please enter another number");
         int b=sc.nextInt();
 
-        if (a>b){
-            System.out.println("The big number is: "+a);
+//        if (a>b){
+//            System.out.println("The big number is: "+a);
+//        }
+//        else {
+//            System.out.println("The big number is: "+b);
+//        }
+
+        if(a==b){
+            System.out.println("The number are equal");
         }
-        else {
-            System.out.println("The big number is: "+b);
-        }
+        System.out.println("end line");
 
     }
 
