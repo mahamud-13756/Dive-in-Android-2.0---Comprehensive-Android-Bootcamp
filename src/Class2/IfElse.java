@@ -11,6 +11,8 @@ public class IfElse {
         int a=sc.nextInt();
         System.out.println("Please enter another number");
         int b=sc.nextInt();
+        System.out.println("Please enter a double number");
+        double c=sc.nextDouble();
 
 //        if (a>b){
 //            System.out.println("The big number is: "+a);
@@ -19,10 +21,26 @@ public class IfElse {
 //            System.out.println("The big number is: "+b);
 //        }
 
-        if(a==b){
-            System.out.println("The number are equal");
+//        if(a==b){
+//            System.out.println("The number are equal");
+//        }
+//        System.out.println("end line");
+
+        if(a>b && a>c){
+            System.out.println("The big number is: "+a);
         }
-        System.out.println("end line");
+        else if(b>a && b>c){
+            System.out.println("The big number is: "+b);
+        }
+        else if(c>a && c>b){
+            System.out.println("The big number is: "+c);
+        }
+        else{
+
+            System.out.println("The big number are EQUAL");
+
+        }
+
 
     }
 
