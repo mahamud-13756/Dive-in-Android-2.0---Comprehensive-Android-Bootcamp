@@ -20,6 +20,6 @@ public class Array2 {
             System.out.println(g);
         }
         System.out.println();
-
+        System.out.println("I am a Student");
     }
 }
