@@ -8,12 +8,18 @@ public class Array1 {
         int[] a={10,20,30,40,50};
         for (int i=0;i<a.length;i++){
         System.out.println(a[i]);}
+
+        a[0]=60; // change an array element
+
+        for (int i=0;i<a.length;i++){
+            System.out.println(a[i]);}
+
 //        System.out.println(a[1]);
 //        System.out.println(a[2]);
 //        System.out.println(a[3]);
 //        System.out.println(a[4]);
 
-        String[] b={"Mahamud","Nazmul","Kawser"};
+        String[] b={"Mahamud","Nazmul","Kawser"}; // for each loop
         for (String g : b) {
             System.out.println(g);
         }
